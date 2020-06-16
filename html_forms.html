@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request More Info</title>
+    </head>
+    <body>
+        <form action="#">
+        <fieldset>
+            <legend>General Info</legend>
+            <input placeholder="First Name" name="first_name"required>
+            <input placeholder="Last Name" name="last_name" required>
+            <input type="email" required name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Requires Info</legend>
+            <label for="">Get Offers
+            <input type="radio" name="get_offers" id="yes" value="yes">Yes</label>
+            <input type="radio" name="get_offers" id="no" value="no">No</label>
+
+        </fieldset>
+        <label for="">Are you over 13?</label>
+        <input type="checkbox" name="over_13" value="yes">
+
+
+        <label for="">How ofter would you like to recieve info?</label>
+        <select name="regularity" id="">
+            <option value="weekly">1x a week</option>
+            <option value="bi-weekly">2x a month</option>
+            <option value="monthly">1x a month</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    </body>
+</html>
+
+<hr>
+<!--small 1-->
+<form action="html.html" method="GET">
+    <fieldset>
+        <legend>Enter input</legend>
+<div>
+    <label >First Name and Last Name
+        <input name="first_name_and_last_name" placeholder="First Name and Last Name"/>
+    </label>
+</div>
+<!--small 2-->
+<div>
+    <fieldset>
+        <label for="">Pick one</label>
+        <input type="checkbox" name="pick_one" id="picked this">
+
+        <label for="">Pick two</label>
+        <input type="checkbox" name="pick_two" id="picked another">
+
+        <label for="">Pick three</label>
+        <input type="checkbox" name="pick_three" id="picked different">
+
+
+    </fieldset>
+</div>
+<!--small 3-->
+<div>
+    <label for="Options">Options</label>
+    <select name="Options" id="Options" >
+        <option value="">Please select option</option>
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option3">Option 3</option>
+</div>
+
